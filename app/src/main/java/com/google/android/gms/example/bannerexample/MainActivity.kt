@@ -32,6 +32,14 @@ class MainActivity : AppCompatActivity() {
                         this,InitAndLoad::class.java
                     ))
         }
+
+
+        findViewById <Button>(R.id.delay_init_and_load)
+            .setOnClickListener {
+                startActivity(Intent(
+                    this,DelayInitAndLoad::class.java
+                ))
+            }
     }
 
 }

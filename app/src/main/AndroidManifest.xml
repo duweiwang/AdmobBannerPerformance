@@ -37,6 +37,11 @@
             android:name=".LoadAfterInit"
             android:exported="true"
             android:label="@string/app_name" />
+
+        <activity
+            android:name=".DelayInitAndLoad"
+            android:exported="true"
+            android:label="@string/app_name" />
     </application>
 
 </manifest>
