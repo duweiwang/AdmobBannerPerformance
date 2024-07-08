@@ -123,7 +123,7 @@ class DontInit : AppCompatActivity() {
         // to get test ads on this device."
         MobileAds.setRequestConfiguration(
             RequestConfiguration.Builder()
-                .setTestDeviceIds(listOf("213059401FBA5F1FEEE9B16F516CAB06")).build()
+                .setTestDeviceIds(listOf("213059401FBA5F1FEEE9B16F516CAB06","B8E2AB6693399122C45708937B03E0EA")).build()
         )
     }
 
